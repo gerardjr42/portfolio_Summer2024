@@ -2,11 +2,7 @@ import { useEffect, useState } from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar";
-import About from "./pages/About";
-import Blog from "./pages/Blog";
-import Contact from "./pages/Contact";
 import Home from "./pages/Home";
-import Projects from "./pages/Projects";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("");
@@ -41,10 +37,10 @@ function App() {
               />
             }
           />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<Home />} />
+          <Route path="/projects" element={<Home />} />
+          <Route path="/blog" element={<Home />} />
+          <Route path="/contact" element={<Home />} />
         </Routes>
       </Router>
     </>

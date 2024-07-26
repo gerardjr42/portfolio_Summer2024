@@ -1,25 +1,24 @@
-import { Link as RouterLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+// import { Link as ScrollLink } from 'react-scroll';
 
 export default function NavBar() {
   return (
     <div className="fixed z-50 w-full">
       <ul className="mx-auto mt-8 flex justify-center space-x-4">
         <li className="text-black text-opacity-100 transition duration-300 ease-in-out hover:text-red-400 hover:text-opacity-50 hover:underline hover:underline-offset-4">
-          <RouterLink to="/About">About</RouterLink>
+          <Link to="/about">About</Link>
         </li>
         <span>/</span>
         <li className="text-black text-opacity-100 transition duration-300 ease-in-out hover:text-red-400 hover:text-opacity-50 hover:underline hover:underline-offset-4">
-          <RouterLink to="/Projects">Projects</RouterLink>
+          <Link to="/projects">Projects</Link>
         </li>
         <span>/</span>
         <li className="text-black text-opacity-100 transition duration-300 ease-in-out hover:text-red-400 hover:text-opacity-50 hover:underline hover:underline-offset-4">
-          <RouterLink to="/Blog" className="">
-            Blog
-          </RouterLink>
+          <Link to="/blog">Blog</Link>
         </li>
         <span>/</span>
         <li className="text-black text-opacity-100 transition duration-300 ease-in-out hover:text-red-400 hover:text-opacity-50 hover:underline hover:underline-offset-4">
-          <RouterLink to="/Contact">Contact</RouterLink>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </div>
