@@ -1,7 +1,27 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
-function NavBar() {
-  return <div>NavBar</div>;
+export default function NavBar() {
+  return (
+    <div className="fixed z-50 w-full">
+      <ul className="mx-auto mt-8 flex justify-center space-x-4">
+        <li className="text-black text-opacity-100 transition duration-300 ease-in-out hover:text-red-400 hover:text-opacity-50 hover:underline hover:underline-offset-4">
+          <Link to="/About">About</Link>
+        </li>
+        <span>/</span>
+        <li className="text-black text-opacity-100 transition duration-300 ease-in-out hover:text-red-400 hover:text-opacity-50 hover:underline hover:underline-offset-4">
+          <Link to="/Projects">Projects</Link>
+        </li>
+        <span>/</span>
+        <li className="text-black text-opacity-100 transition duration-300 ease-in-out hover:text-red-400 hover:text-opacity-50 hover:underline hover:underline-offset-4">
+          <Link to="/Blog" className="">
+            Blog
+          </Link>
+        </li>
+        <span>/</span>
+        <li className="text-black text-opacity-100 transition duration-300 ease-in-out hover:text-red-400 hover:text-opacity-50 hover:underline hover:underline-offset-4">
+          <Link to="/Contact">Contact</Link>
+        </li>
+      </ul>
+    </div>
+  );
 }
-
-export default NavBar;
