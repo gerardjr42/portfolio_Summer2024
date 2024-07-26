@@ -1,25 +1,25 @@
-import { Link } from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom";
 
 export default function NavBar() {
   return (
     <div className="fixed z-50 w-full">
       <ul className="mx-auto mt-8 flex justify-center space-x-4">
         <li className="text-black text-opacity-100 transition duration-300 ease-in-out hover:text-red-400 hover:text-opacity-50 hover:underline hover:underline-offset-4">
-          <Link to="/About">About</Link>
+          <RouterLink to="/About">About</RouterLink>
         </li>
         <span>/</span>
         <li className="text-black text-opacity-100 transition duration-300 ease-in-out hover:text-red-400 hover:text-opacity-50 hover:underline hover:underline-offset-4">
-          <Link to="/Projects">Projects</Link>
+          <RouterLink to="/Projects">Projects</RouterLink>
         </li>
         <span>/</span>
         <li className="text-black text-opacity-100 transition duration-300 ease-in-out hover:text-red-400 hover:text-opacity-50 hover:underline hover:underline-offset-4">
-          <Link to="/Blog" className="">
+          <RouterLink to="/Blog" className="">
             Blog
-          </Link>
+          </RouterLink>
         </li>
         <span>/</span>
         <li className="text-black text-opacity-100 transition duration-300 ease-in-out hover:text-red-400 hover:text-opacity-50 hover:underline hover:underline-offset-4">
-          <Link to="/Contact">Contact</Link>
+          <RouterLink to="/Contact">Contact</RouterLink>
         </li>
       </ul>
     </div>
