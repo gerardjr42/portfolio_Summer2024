@@ -37,6 +37,7 @@ function App() {
               <Home
                 handlePageName={handlePageName}
                 handleLoading={handleLoading}
+                loading={loading}
               />
             }
           />
