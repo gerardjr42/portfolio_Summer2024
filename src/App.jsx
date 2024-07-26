@@ -2,18 +2,19 @@ import { useEffect, useState } from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar";
+import FourOFour from "./pages/FourOFour";
 import Home from "./pages/Home";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("");
   const [loading, setIsLoading] = useState(true);
 
-  //Dyanamic naming tabs
+  // Dyanamic naming tabs
   useEffect(() => {
     document.title = `Gerardo - ${currentPage}`;
   }, [currentPage]);
 
-  //handles naming state based on routing
+  // handles naming state based on routing
   const handlePageName = (pageName) => {
     setCurrentPage(pageName);
   };
@@ -37,10 +38,23 @@ function App() {
               />
             }
           />
-          <Route path="/about" element={<Home />} />
-          <Route path="/projects" element={<Home />} />
-          <Route path="/blog" element={<Home />} />
-          <Route path="/contact" element={<Home />} />
+          <Route
+            path="/about"
+            element={<Home handlePageName={handlePageName} />}
+          />
+          <Route
+            path="/projects"
+            element={<Home handlePageName={handlePageName} />}
+          />
+          <Route
+            path="/blog"
+            element={<Home handlePageName={handlePageName} />}
+          />
+          <Route
+            path="/contact"
+            element={<Home handlePageName={handlePageName} />}
+          />
+          <Route path="*" element={<FourOFour />} />
         </Routes>
       </Router>
     </>

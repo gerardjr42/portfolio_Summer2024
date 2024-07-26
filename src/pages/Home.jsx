@@ -11,7 +11,8 @@ export default function Home({ handlePageName, handleLoading, loading }) {
   const location = useLocation();
 
   useEffect(() => {
-    handlePageName("Homepage");
+    const path = location.pathname.replace("/", "");
+    handlePageName(path);
     setTimeout(() => {
       handleLoading(false);
     }, 4500);
