@@ -1,42 +1,73 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* Custom Cursor? */
+
+/* Loading Animation */
+#loader-container {
+  max-width: 220px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#loader path:nth-child(1) {
+  stroke-dasharray: 200%;
+  stroke-dashoffset: 200%;
+  animation: strokeAnimate 3s 0s ease forwards;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+#loader path:nth-child(2) {
+  stroke-dasharray: 200%;
+  stroke-dashoffset: 200%;
+  animation: strokeAnimate 3s 0.3s ease forwards;
+}
+
+#loader path:nth-child(3) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: strokeAnimate 3s 0.6s ease forwards;
+}
+#loader path:nth-child(4) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: strokeAnimate 3s 0.9s ease forwards;
+}
+#loader path:nth-child(5) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: strokeAnimate 3s 1.2s ease forwards;
+}
+#loader path:nth-child(6) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: strokeAnimate 3s 1.5s ease forwards;
+}
+
+#loader path:nth-child(7) {
+  stroke-dasharray: 200%;
+  stroke-dashoffset: 200%;
+  animation: strokeAnimate 3s 1.8s ease forwards;
+}
+
+@keyframes strokeAnimate {
   to {
-    transform: rotate(360deg);
+    stroke-dashoffset: 0;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media screen and (max-width: 768px) {
+  #loader-container {
+    max-width: 150px;
+  }
+  #loader {
+    width: 150px;
   }
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+@media screen and (max-width: 650px) {
+  #loader-container {
+    max-width: 100px;
+  }
+  #loader {
+    width: 100px;
+  }
 }
