@@ -46,10 +46,10 @@ function App() {
             path="/projects"
             element={<Home handlePageName={handlePageName} />}
           />
-          <Route
+          {/* <Route
             path="/blog"
             element={<Home handlePageName={handlePageName} />}
-          />
+          /> */}
           <Route
             path="/contact"
             element={<Home handlePageName={handlePageName} />}
