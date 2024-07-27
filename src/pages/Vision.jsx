@@ -88,7 +88,7 @@ export default function Vision() {
           </p>
           <p className="mt-2 font-mono text-black">
             ◦ Exploration of supervised and unsupervised machine learning
-            algorithms in scikitlearn
+            algorithms in Scikit-learn
           </p>
           <p className="mt-2 font-mono text-black">
             ◦ Skilled in creating compelling data visualizations using Plotly to
@@ -133,6 +133,10 @@ export default function Vision() {
             Algorithms to optimize software solutions by enhancing performance
             and improving scalability
           </p>
+          <p className="mb-2 mt-2 font-mono text-black">
+            ◦ Proficient in Figma for website design, wireframing; experienced
+            in Jira for project management; skilled in Git for version control.
+          </p>
           <div className="mb-16 mt-4">
             <button className="mr-2 rounded-full bg-red-400 px-2 py-1 text-xs text-black opacity-70">
               <p>Javascript</p>
@@ -154,6 +158,15 @@ export default function Vision() {
             </button>
             <button className="mr-2 rounded-full bg-red-400 px-2 py-1 text-xs text-black opacity-70">
               Tailwind
+            </button>
+            <button className="mr-2 rounded-full bg-red-400 px-2 py-1 text-xs text-black opacity-70">
+              Git
+            </button>
+            <button className="mr-2 rounded-full bg-red-400 px-2 py-1 text-xs text-black opacity-70">
+              Figma
+            </button>
+            <button className="mr-2 rounded-full bg-red-400 px-2 py-1 text-xs text-black opacity-70">
+              Jira
             </button>
           </div>
           <h2 className="mb-4">View Full Résumé</h2>

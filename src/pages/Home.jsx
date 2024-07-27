@@ -46,7 +46,7 @@ export default function Home({ handlePageName, handleLoading, loading }) {
             </div>
           </Element>
           <Element id="projects" name="projects">
-            <div className="flex h-screen items-center justify-center bg-[#fff7c8]">
+            <div className="flex h-screen items-center justify-center">
               <Projects />
             </div>
           </Element>
