@@ -11,7 +11,7 @@ function App() {
 
   // Dyanamic naming tabs
   useEffect(() => {
-    document.title = `Gerardo - ${currentPage}`;
+    document.title = `Gerardo Garcia SWE - ${currentPage}`;
   }, [currentPage]);
 
   // handles naming state based on routing
@@ -43,13 +43,13 @@ function App() {
             element={<Home handlePageName={handlePageName} />}
           />
           <Route
+            path="/vision"
+            element={<Home handlePageName={handlePageName} />}
+          />
+          <Route
             path="/projects"
             element={<Home handlePageName={handlePageName} />}
           />
-          {/* <Route
-            path="/blog"
-            element={<Home handlePageName={handlePageName} />}
-          /> */}
           <Route
             path="/contact"
             element={<Home handlePageName={handlePageName} />}

@@ -5,6 +5,7 @@ import Loading from "../components/Loading";
 import About from "./About";
 import Contact from "./Contact";
 import Projects from "./Projects";
+import Vision from "./Vision";
 
 export default function Home({ handlePageName, handleLoading, loading }) {
   const location = useLocation();
@@ -39,16 +40,16 @@ export default function Home({ handlePageName, handleLoading, loading }) {
               <About />
             </div>
           </Element>
+          <Element id="vision" name="vision">
+            <div className="flex h-full items-center justify-center">
+              <Vision />
+            </div>
+          </Element>
           <Element id="projects" name="projects">
-            <div className="flex h-screen items-center justify-center">
+            <div className="flex h-screen items-center justify-center bg-[#fff7c8]">
               <Projects />
             </div>
           </Element>
-          {/* <Element id="blog" name="blog">
-            <div className="flex h-screen items-center justify-center bg-green-200">
-              <Blog />
-            </div>
-          </Element> */}
           <Element id="contact" name="contact">
             <div className="flex h-screen items-center justify-center bg-[#4E4C4C]">
               <Contact />

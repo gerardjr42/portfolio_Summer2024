@@ -5,6 +5,9 @@
 @layer base {
   body {
     @apply bg-[#F9F7EC];
-    /* @apply bg-[#040505]; */
   }
+}
+
+html {
+  overscroll-behavior: none;
 }
