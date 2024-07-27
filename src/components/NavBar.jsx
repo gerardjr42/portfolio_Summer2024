@@ -12,7 +12,7 @@ export default function NavBar() {
           <Link to="/vision">Vision</Link>
         </li>
         <span>/</span>
-        <li className="text-black text-opacity-100 transition duration-300 ease-in-out hover:text-red-400 hover:text-opacity-50 hover:underline hover:underline-offset-4">
+        <li className="text-black text-opacity-100 transition duration-300 ease-in-out hover:text-red-400 hover:text-opacity-90 hover:underline hover:underline-offset-4">
           <Link to="/projects">Projects</Link>
         </li>
         <span>/</span>

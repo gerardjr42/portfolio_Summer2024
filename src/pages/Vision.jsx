@@ -3,7 +3,7 @@ import React from "react";
 export default function Vision() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-start">
-      <h2 className="prose mt-24 font-mono text-5xl font-normal">
+      <h2 className="prose mt-24 font-serif text-5xl font-thin">
         The{" "}
         <span className="text-stroke-2 text-red-400 text-opacity-80">
           Vision
