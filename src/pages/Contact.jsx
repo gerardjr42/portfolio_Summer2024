@@ -64,14 +64,14 @@ function Contact() {
         <div className="mb-12 flex font-thin">
           <a href="http://www.linkedin.com/in/garciajrgerardo" target="_blank">
             <img
-              src="/public/assets/images/linkedin.png"
+              src="/assets/images/linkedin.png"
               alt="linked in"
               className="mr-4 h-8 w-8 opacity-40 hover:opacity-100"
             />
           </a>
           <a href="https://github.com/gerardjr42" target="_blank">
             <img
-              src="/public/assets/images/github.png"
+              src="/assets/images/github.png"
               alt="github"
               className="h-8 w-8 opacity-50 hover:opacity-100"
             />
