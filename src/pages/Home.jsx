@@ -24,7 +24,7 @@ export default function Home({ handlePageName, handleLoading, loading }) {
       scroller.scrollTo(path, {
         smooth: true,
         duration: 500,
-        offset: 0, // Adjust for navbar height if necessary
+        offset: 0,
       });
     }
   }, [location]);

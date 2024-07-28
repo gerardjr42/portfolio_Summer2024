@@ -1,6 +1,18 @@
+import { useEffect, useState } from "react";
+
 export default function About() {
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoaded(true);
+    }, 1000);
+  }, []);
+
   return (
-    <div className="relative h-screen w-full">
+    <div
+      className={`relative h-screen w-full transition-opacity duration-1000 ${loaded ? "opacity-100" : "opacity-0"}`}
+    >
       <video
         className="absolute left-0 top-0 h-full w-full object-cover"
         src="https://videos.pexels.com/video-files/2324293/2324293-uhd_3840_2160_25fps.mp4"
