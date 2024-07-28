@@ -121,7 +121,7 @@ export default function Vision() {
           <p className="font-mono font-semibold"> Pursuit • Hybrid</p>
           <p className="font-mono text-black text-opacity-50">
             {" "}
-            Software Engineer Fellowship
+            Full-Stack Developer Fellowship
           </p>
           <p className="mt-2 font-mono text-black">
             ◦ Successfully conceptualized, developed, and deployed front and
@@ -137,7 +137,7 @@ export default function Vision() {
             ◦ Proficient in Figma for website design, wireframing; experienced
             in Jira for project management; skilled in Git for version control.
           </p>
-          <div className="mb-16 mt-4">
+          <div className="mb-10 mt-4">
             <button className="mr-2 rounded-full bg-red-400 px-2 py-1 text-xs text-black opacity-70">
               <p>Javascript</p>
             </button>
@@ -169,7 +169,9 @@ export default function Vision() {
               Jira
             </button>
           </div>
-          <h2 className="mb-4">View Full Résumé</h2>
+          <h2 className="mb-4 cursor-pointer text-end hover:text-[#CA3B6F]">
+            View Full Résumé
+          </h2>
         </div>
         {/* End of Third */}
       </div>

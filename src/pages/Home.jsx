@@ -46,12 +46,12 @@ export default function Home({ handlePageName, handleLoading, loading }) {
             </div>
           </Element>
           <Element id="projects" name="projects">
-            <div className="flex h-screen items-center justify-center">
+            <div className="flex h-screen items-center justify-center bg-[#4E4C4C]">
               <Projects />
             </div>
           </Element>
           <Element id="contact" name="contact">
-            <div className="flex h-screen items-center justify-center bg-[#4E4C4C]">
+            <div className="] flex h-screen items-center justify-center">
               <Contact />
             </div>
           </Element>
