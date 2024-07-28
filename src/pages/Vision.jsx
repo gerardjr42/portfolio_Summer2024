@@ -170,7 +170,12 @@ export default function Vision() {
             </button>
           </div>
           <h2 className="mb-4 cursor-pointer text-end hover:text-[#CA3B6F]">
-            View Full Résumé
+            <a
+              href="https://drive.google.com/file/d/1K8YyAxtGOITNWJYJ4V54-xdrQZU7g75G/view?usp=sharing"
+              target="_blank"
+            >
+              View Full Résumé
+            </a>
           </h2>
         </div>
         {/* End of Third */}
