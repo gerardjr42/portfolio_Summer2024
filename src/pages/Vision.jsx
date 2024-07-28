@@ -165,7 +165,7 @@ export default function Vision() {
             <button className="mr-2 rounded-full bg-red-400 px-2 py-1 text-xs text-black opacity-70">
               Figma
             </button>
-            <button className="mr-2 rounded-full bg-red-400 px-2 py-1 text-xs text-black opacity-70">
+            <button className="mr-2 mt-3 rounded-full bg-red-400 px-2 py-1 text-xs text-black opacity-70">
               Jira
             </button>
           </div>
