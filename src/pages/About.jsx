@@ -22,14 +22,14 @@ export default function About() {
       />
       <div className="relative z-10 flex h-full items-center justify-center">
         <div className="prose mx-auto mb-36 pt-24 text-center text-white">
-          <h1 className="prose font-serif text-5xl font-semibold leading-none text-white">
+          <h1 className="prose font-serif text-3xl font-semibold leading-none text-white sm:text-5xl">
             Gerardo Garcia Jr.
           </h1>
-          <h2 className="prose font-mono text-xl font-normal leading-none text-white">
+          <h2 className="text-md prose font-mono font-normal leading-none text-white sm:text-xl">
             Full-Stack Engineer
           </h2>
           <div className="flex flex-col">
-            <h2 className="prose font-mono text-base font-normal text-[#F9F7EC]">
+            <h2 className="prose font-mono text-xs font-normal text-[#F9F7EC] sm:text-base">
               I am a full-stack web developer with a passion for AI and ML. My
               goal is to merge these technologies to create meaningful solutions
               that{" "}

@@ -6,7 +6,7 @@ export default function Project({ name, url, thumbnail, info }) {
       <img
         src={thumbnail}
         alt={`${name} Thumbnail`}
-        className="h-54 w-96 rounded object-cover"
+        className="h-54 w-full rounded object-cover"
       />
       <div className="">
         <h3 className="prose mb-4 text-center font-serif text-lg font-semibold text-[#f5e0bf]">
