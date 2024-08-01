@@ -11,7 +11,8 @@ function App() {
 
   // Dyanamic naming tabs
   useEffect(() => {
-    document.title = `Gerardo Garcia SWE - ${currentPage}`;
+    // document.title = `Gerardo Garcia SWE - ${currentPage}`;
+    document.title = `Gerardo Garcia SWE`;
   }, [currentPage]);
 
   // handles naming state based on routing

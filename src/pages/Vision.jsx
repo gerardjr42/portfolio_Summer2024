@@ -22,8 +22,9 @@ export default function Vision() {
             Software Engineer Fellow
           </p>
           <p className="mt-2 font-mono text-black">
-            ◦ Built 5+ AI apps using NextJS, OpenAI, Pinecone, StripeAPI with
-            98% accuracy as seen by 1000 users
+            {/* ◦ Built 5+ AI apps using NextJS, OpenAI, Pinecone, StripeAPI with
+            98% accuracy as seen by 1000 users */}
+            ◦ Built 5+ AI apps using NextJS, OpenAI, Pinecone, etc
           </p>
           <p className="mt-2 font-mono text-black">
             ◦ Develop Projects from design to deployment leading 4+ engineering
@@ -169,10 +170,11 @@ export default function Vision() {
               Jira
             </button>
           </div>
-          <h2 className="mb-4 cursor-pointer text-end hover:text-[#CA3B6F]">
+          <h2 className="mb-4 cursor-pointer text-end hover:text-[#4E4C4C]">
             <a
               href="https://drive.google.com/file/d/1K8YyAxtGOITNWJYJ4V54-xdrQZU7g75G/view?usp=sharing"
               target="_blank"
+              className="text-xl"
             >
               View Full Résumé
             </a>

@@ -29,7 +29,7 @@ export default function About() {
             Full-Stack Engineer
           </h2>
           <div className="flex flex-col">
-            <h2 className="prose font-mono text-base font-thin text-white">
+            <h2 className="prose font-mono text-base font-normal text-[#F9F7EC]">
               I am a full-stack web developer with a passion for AI and ML. My
               goal is to merge these technologies to create meaningful solutions
               that{" "}

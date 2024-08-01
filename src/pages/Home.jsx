@@ -12,7 +12,7 @@ export default function Home({ handlePageName, handleLoading, loading }) {
 
   useEffect(() => {
     const path = location.pathname.replace("/", "");
-    handlePageName(path);
+    handlePageName(location.pathname);
     setTimeout(() => {
       handleLoading(false);
     }, 4500);

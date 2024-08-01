@@ -14,11 +14,8 @@ function Contact() {
         </div>
       </div>
       {/* Testing Area */}
-      <div className="mr-auto flex min-h-screen flex-col items-center justify-start pl-12">
+      <div className="mr-auto flex min-h-screen w-[58%] flex-col items-end justify-start">
         <div className="mt-24">
-          {/* <h1 className="prose mb-4 text-center font-serif text-5xl font-thin uppercase leading-none">
-            Personal
-          </h1> */}
           <h2 className="prose font-serif text-3xl font-thin uppercase leading-none">
             What am I doing when I'm not coding?
           </h2>
@@ -61,19 +58,19 @@ function Contact() {
       </div>
       {/* Testing Area ends */}
       <div className="ml-auto flex min-h-screen flex-col items-center justify-end pr-12">
-        <div className="mb-12 flex font-thin">
+        <div className="mb-12 flex items-center justify-center align-baseline">
           <a href="http://www.linkedin.com/in/garciajrgerardo" target="_blank">
             <img
               src="/assets/images/linkedin.png"
               alt="linked in"
-              className="mr-4 h-8 w-8 opacity-40 hover:opacity-100"
+              className="mr-4 h-10 w-10 opacity-40 hover:opacity-100"
             />
           </a>
           <a href="https://github.com/gerardjr42" target="_blank">
             <img
               src="/assets/images/github.png"
               alt="github"
-              className="h-8 w-8 opacity-50 hover:opacity-100"
+              className="h-10 w-10 opacity-50 hover:opacity-100"
             />
           </a>
         </div>
