@@ -14,7 +14,7 @@ function Contact() {
         </div>
       </div>
       {/* Testing Area */}
-      <div className="mx-10 sm:mx-auto sm:flex sm:min-h-full sm:w-[60%] sm:flex-col sm:items-end sm:justify-start sm:pr-[8rem]">
+      <div className="mx-10 sm:mx-auto sm:flex sm:min-h-full sm:w-[60%] sm:flex-col sm:items-end sm:justify-start lg:pr-[8rem]">
         <div className="mt-24 sm:mt-0">
           <h2 className="prose font-serif text-3xl font-thin uppercase leading-none">
             What am I doing when I'm not coding?
