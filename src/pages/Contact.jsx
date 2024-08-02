@@ -3,8 +3,8 @@ import React from "react";
 function Contact() {
   return (
     <>
-      <div className="mr-auto flex min-h-screen flex-col items-center justify-start pl-12">
-        <div className="mt-24">
+      <div className="mr-auto hidden min-h-screen flex-col items-center justify-start pl-12 lg:flex">
+        <div className="sm:mt-24">
           <h1 className="prose font-serif text-5xl font-thin uppercase leading-none sm:text-[5rem]">
             Gerardo
           </h1>
@@ -14,8 +14,8 @@ function Contact() {
         </div>
       </div>
       {/* Testing Area */}
-      <div className="mr-auto flex min-h-screen w-[58%] flex-col items-end justify-start">
-        <div className="mt-24">
+      <div className="mx-10 sm:mx-auto sm:flex sm:min-h-full sm:w-[60%] sm:flex-col sm:items-end sm:justify-start sm:pr-[8rem]">
+        <div className="mt-24 sm:mt-0">
           <h2 className="prose font-serif text-3xl font-thin uppercase leading-none">
             What am I doing when I'm not coding?
           </h2>
@@ -55,10 +55,7 @@ function Contact() {
             his thoughts and the profound wisdom they hold.
           </p>
         </div>
-      </div>
-      {/* Testing Area ends */}
-      <div className="ml-auto flex min-h-screen flex-col items-center justify-end pr-12">
-        <div className="mb-12 flex items-center justify-center align-baseline">
+        <div className="mb-6 mt-10 flex flex-row items-end justify-end align-bottom">
           <a href="http://www.linkedin.com/in/garciajrgerardo" target="_blank">
             <img
               src="/assets/images/linkedin.png"
