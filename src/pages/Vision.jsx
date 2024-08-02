@@ -12,10 +12,10 @@ export default function Vision() {
       </h2>
       <div className="gid-cols-1 mx-10 mt-20 grid justify-items-center sm:min-w-full sm:grid-cols-2">
         {/* First */}
-        <div className="mt-4 grid-cols-1 items-start justify-start font-mono">
+        <div className="mr-auto mt-4 grid-cols-1 items-start justify-start font-mono sm:mr-0">
           July 2024 - PRESENT
         </div>
-        <div className="mt-4 grid-cols-1 text-red-400 text-opacity-90 sm:pr-[18rem]">
+        <div className="mt-4 grid-cols-1 text-red-400 text-opacity-90 sm:pr-[4rem] md:pr-[8rem] lg:pr-[12rem] xl:pr-[18rem]">
           <p className="font-mono font-semibold"> Headstarter AI • Remote</p>
           <p className="font-mono text-black text-opacity-50">
             {" "}
@@ -68,10 +68,11 @@ export default function Vision() {
         </div>
         {/* End of First */}
         {/* Second */}
-        <div className="mt-12 grid-cols-1 items-start justify-start font-mono sm:mt-4">
+        <div className="mr-auto mt-12 grid-cols-1 items-start justify-start font-mono sm:mr-0 sm:mt-4">
           June 2024 - PRESENT
         </div>
-        <div className="mt-4 grid-cols-1 text-red-400 text-opacity-90 sm:pr-[18rem]">
+        {/* <div className="mt-4 grid-cols-1 text-red-400 text-opacity-90 sm:pr-[18rem]"> */}
+        <div className="mt-4 grid-cols-1 text-red-400 text-opacity-90 sm:pr-[4rem] md:pr-[8rem] lg:pr-[12rem] xl:pr-[18rem]">
           <p className="font-mono font-semibold">
             {" "}
             Artificial Intelligence & Machine Learning • Remote
@@ -113,10 +114,11 @@ export default function Vision() {
         </div>
         {/* End of Second */}
         {/* Third */}
-        <div className="mt-12 grid-cols-1 items-start justify-start font-mono sm:mt-4">
+        <div className="mr-auto mt-12 grid-cols-1 items-start justify-start font-mono sm:mr-0 sm:mt-4">
           August 2023 - PRESENT
         </div>
-        <div className="mt-4 grid-cols-1 text-red-400 text-opacity-90 sm:pr-[18rem]">
+        {/* <div className="mt-4 grid-cols-1 text-red-400 text-opacity-90 sm:pr-[18rem]"> */}
+        <div className="mt-4 grid-cols-1 text-red-400 text-opacity-90 sm:pr-[4rem] md:pr-[8rem] lg:pr-[12rem] xl:pr-[18rem]">
           <p className="font-mono font-semibold"> Pursuit • Hybrid</p>
           <p className="font-mono text-black text-opacity-50">
             {" "}
