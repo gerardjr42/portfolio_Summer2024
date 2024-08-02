@@ -5,10 +5,10 @@ function Contact() {
     <>
       <div className="mr-auto flex min-h-screen flex-col items-center justify-start pl-12">
         <div className="mt-24">
-          <h1 className="prose font-serif text-[5rem] font-thin uppercase leading-none">
+          <h1 className="prose font-serif text-5xl font-thin uppercase leading-none sm:text-[5rem]">
             Gerardo
           </h1>
-          <h1 className="prose font-serif text-[5rem] font-thin uppercase leading-none">
+          <h1 className="prose font-serif text-5xl font-thin uppercase leading-none sm:text-[5rem]">
             Garcia Jr.
           </h1>
         </div>
